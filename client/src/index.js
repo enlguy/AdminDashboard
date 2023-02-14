@@ -13,7 +13,10 @@ const store = configureStore({
     global: globalReducer,
     [api.reducerPath]: api.reducer,
   },
-})
+  middleware: (getDefault) => getDefault().concat(api.middleware)
+});
+setupListeners(store.dispatch);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,4 +25,4 @@ root.render(
     <App />
     </Provider>
   </React.StrictMode>
-);
+)
