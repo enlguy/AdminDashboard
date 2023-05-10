@@ -4,5 +4,5 @@ Front-end is heavy on React, MUI components, and CSS.
 
 The biggest challenge for me with this project is the complexity of the layout (many custom components built, as well as using MUI for the first time).
 
-Deployed version: https://fullstackadmindashboard-fe.onrender.com/dashboard
+Deployed version: https://fullstackadmindashboard-fe.onrender.com
 NOTE: May load very slowly first time, even giving a 404 at first.  Due to the way Render deploys, please be patient.  Thank you!
